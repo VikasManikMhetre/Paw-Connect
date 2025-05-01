@@ -1,0 +1,69 @@
+#back_screen{
+    background-image: url("https://img.freepik.com/free-photo/handsome-doctor-veterinarian-smiling-examining-pet-vet-clinic-checking-pug-dog-with-stethoscope-s_1258-155659.jpg?t=st=1733434691~exp=1733438291~hmac=887b8f8cf87b40078a6fe58cc4cc1a833e84203cb9cbcd7e700d689f354bf0e9&w=1380");
+    width: 100%;
+    height: 90vh;
+    background-color: #cccccc;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0 4px 10px rgb(160, 231, 245); Adjust values for desired effect */
+    position: relative;
+
+}
+
+#body_back_screen{
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg");
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0 4px 10px rgb(160, 231, 245); Adjust values for desired effect */
+    position:relative;
+
+
+}
+.card_image_height{
+    height: 40vh;
+    
+}
+.card_image_shadow_header{
+    box-shadow: 0 0px 50px rgb(0, 0, 0);   /* Adjust values for desired effect  (left-right) (top-down) (opacity) (size of shadow)  */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+    font-size: 2vh;
+}
+
+.card_image_shadow_header:hover {
+    /* Shadow effect on hover */
+    box-shadow: 0 0px 50px rgb(160, 231, 245);
+}
+
+.card_image_shadow_body{
+
+    font-size: 2vh;
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+
+}
+
+.card_image_shadow_body:hover {
+    box-shadow: 0 0px 20px rgb(160, 231, 245); /* Shadow effect on hover */
+}
+
+.row.custom-gap .col-md-3 {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.card_margin{
+
+    padding-right: 10vh;
+}
+
+.card-padding-bottom {
+    padding-bottom: 55px; /* Adjust the value as needed */
+}
+
+#footer{
+    background-color: rgb(160, 231, 245);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Users</title>
+</head>
+<body>
+    <h1>All Users</h1>
+
+    <!-- Table to display the users -->
+    <table border="1">
+        <thead>
+            <tr>
+                <!-- <th>ID</th> -->
+                <th>Name</th>
+                <th>Owner Ph.No</th>
+                <th>Reason to book</th>
+                <th>Pet Name </th>
+                <th>Pet Gender</th>
+                <th>pet Weight </th>
+                <th>Date of Appointment</th>
+                <th>Description</th>
+
+            </tr>
+        </thead>
+        <tbody>
+                <!-- {% set seen = [] %}             -->
+                {% for user in users %}
+                     {% if user  in users %}
+                     <!-- {% set _ = seen.append(user|tojson) %} -->
+                 <tr>
+                    <!-- <td>{{ user[0] }}</td>  user[0] is the ID -->
+                    <td>{{ user[1] }}</td>  <!-- user[1] is the Name -->
+                    <td>{{ user[2] }}</td>  <!-- user[2] is the Email -->
+                    <td>{{ user[3] }}</td>  <!-- user[2] is the Email -->
+                    <td>{{ user[4] }}</td>  <!-- user[2] is the Email -->
+                    <td>{{ user[5] }}</td>  <!-- user[2] is the Email -->
+                    <td>{{ user[6] }}</td>  <!-- user[2] is the Email -->
+                    <td>{{ user[7] }}</td>  <!-- user[2] is the Email -->
+                    <td>{{ user[8] }}</td>  <!-- user[2] is the Email -->
+                </tr>
+                    {% endif %}
+                {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>

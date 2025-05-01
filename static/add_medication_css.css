@@ -1,0 +1,165 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.left-padding {
+    padding-left: 20px; /* Adjust the value as needed */
+}
+
+/* structure */
+.box_2_medication_css {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;    /* Vertical center */
+    height: 100vh;          /* Full viewport height */
+    text-align: center;     /* Center align text */
+    flex-direction: column; /* Stack elements vertically */
+    background-color: #f8f9fa; /* Optional background color */
+}
+
+/* typography */
+
+#log_in_button{
+	color: rgb(79, 55, 29);
+	float: left;
+  }
+
+
+ input[type=button], input[type=submit], input[type=reset]  {
+	background-color: rgb(219, 76, 33);
+	border: none;
+	color: wheat;
+	padding: 15px 80px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 13px;
+	-webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+	box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin: 5px 20px 10px 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+	background-color: rgb(160, 231, 245);
+	color: black;
+  }
+  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+  }
+  
+  input[type=text] {
+	background-color: #eceaea;
+	border: none;
+	color: rgb(112, 78, 53);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+	width: 85%;
+	border: 2px solid #f6f6f6;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+  }
+  
+  input[type=text]:focus {
+	background-color: rgb(160, 231, 245);
+	color: #cccccc;
+	border-bottom: 5px solid #5fbae9;
+  }
+  
+  input[type=text]:placeholder {
+	color: #cf2727;
+  }
+
+  .custom_placeholder::placeholder {
+    color: rgb(112, 78, 53); /* Change to your desired color */
+    opacity: 1;  /* Ensures full visibility */
+  }
+  
+
+/* Popup container */
+.popup-container {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup content */
+.popup-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close button */
+.close-btn {
+    background-color: rgb(223, 113, 91);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: right;
+    margin: -10px -10px 10px 0;
+    font-size: 16px;
+}
+
+.close-btn:hover {
+    background-color:  #7eff57;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

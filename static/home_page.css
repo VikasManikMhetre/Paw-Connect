@@ -1,0 +1,32 @@
+#back_screen{
+    background-image: url("https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100%;
+    height: 80vh;
+    background-color: #cccccc;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color_font{
+  color:rgb(160, 231, 245) ;
+}
+
+.hero-text {
+  text-align:left ;
+  position: absolute;
+  top: 80%;
+  left: 21%;
+  right: 40%;
+  font-size: 90%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
